@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="Weatherstyle.css">
+</head>
+<body>
+    <form id="form">
+        <div class="input-container">
+            <input type="text" id="search" placeholder="Enter the Location" autocomplete="off">&nbsp 
+            <button type="submit">Search</button>
+        </div>
+    </form>
+    <main id="main">
+        <div class="weather">
+            <h2>
+                <img src="" alt="" id="icon1">
+                <span id="temperature"></span>°C
+                <img src="" alt="" id="icon2">
+            </h2>
+            <small id="weather-description"></small>
+            <p>Humidity: <span id="humidity"></span>%</p>
+            <p>Wind Speed: <span id="wind-speed"></span> km/h</p>
+        </div>
+    </main>
+    <script src="WeatherjavaScript.js"></script>
+</body>
+</html>
